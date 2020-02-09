@@ -97,5 +97,6 @@ public:
 int main() {
     Solution2 s;
     std::cout << s.reverse(-987) << std::endl;
+    std::cout << long(1 << 31) << std::endl;
     return 0;
 }
